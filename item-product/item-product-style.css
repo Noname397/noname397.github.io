@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.block-blog-content img{
+    width: 100%;
+}
+.item-product{
+    display: flex;
+}
+.item-product-name-price{
+    margin-left: 50px;
+}
+.item-product-price p{
+    font-weight: 700;
+    line-height: 0.5;
+    color: #D70018;
+}
+.block-blog-content{
+    width: 840px;
+}
+.block-blog-content a{
+    text-decoration: none;
+    color: #007bff;
+}

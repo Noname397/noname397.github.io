@@ -2,9 +2,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
 }
-/* .container{
-    width: 100%;
-} */
+header{
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 10px;
+}
 
 .line {
   display: flex;
@@ -27,7 +29,7 @@ a {
   align-content: flex-start;
 }
 .slideshow{
-    padding: 10px;
+    padding: 8px;
     width: 185px;
     height: 250px;
 }
