@@ -5,10 +5,6 @@
 .outer-border{
     padding:2px;
 }
-.border img:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
 
 @media (max-width:850px) {
     .container{
@@ -36,12 +32,8 @@
 }
 
 body{
-    padding:0 13%;
+    padding:0 30px;
     background-color: white;
-}
-
-.border a:first-child:hover{
-    transform:scale(2);
 }
 
 .border{
