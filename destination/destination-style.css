@@ -1,5 +1,5 @@
 .container{
-    margin: 0 13%;
+    margin: 0 20px;
     background-color: white;
 }
 
@@ -11,6 +11,9 @@
     width:60%;    
 }
 
+.container > h1{
+    text-align: center;
+}
 .container p{
     margin:3% 10%;
 }
@@ -21,12 +24,17 @@ body{
 .back{
     display: block;
     line-height: 2;
+    padding: auto;
     text-align: center;
     text-decoration: none;
     color:white;
     background-color: #2ECC71;
-    width: 5%;
+    width: 40px;
     position:fixed;
     top:0;
     left:0;
+}
+
+.text{
+    padding: 20px;
 }
