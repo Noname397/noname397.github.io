@@ -1,0 +1,43 @@
+/* .navbar-toggler{
+    position: absolute;
+    top: 0;
+}
+.navbar-brand{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.container-fluid{
+    position: relative;
+} */
+
+.container-fluid{
+    /* display: flex;
+    justify-content: space-between !important; */
+}
+
+.navbar-toggler{
+    margin-right: 15px;
+}
+
+.navbar-collapse{
+    position: relative;
+}
+.navbar-collapse ul{
+    position: absolute;
+    right:15px;
+}
+.row{
+    padding: 15px;
+}
+@media screen and (max-width:991px){
+    .navbar-brand{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar-nav li:nth-child(1) a{
+        display: none !important;
+    } 
+}
